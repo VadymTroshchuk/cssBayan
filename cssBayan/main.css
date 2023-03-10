@@ -1,0 +1,50 @@
+
+
+
+.plus-icon {
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: linear-gradient(#fff 0 0), linear-gradient(#fff 0 0);
+    background-position: center;
+    background-size: 50% 0.1rem,0.1rem 50%;
+    background-repeat: no-repeat;
+    
+}
+
+
+.accordion-list__items-container{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 10px;
+  max-width: 600px;
+  background-color: green;
+}
+.radio-btn{
+  display: none;
+}
+.accordion-list__item{
+
+}
+.top-content__container{
+  display: flex;
+  align-items: center;
+    justify-content: space-between;
+}
+
+.bottom-content__container{
+  display: flex;
+  justify-content: center;
+}
+
+.img-wrappper{
+  background-image: url(.//images/bayan-img1.jpg);
+  background-size: contain;
+  display: block;
+  height: 300px;
+  width: 300px;
+
+  background-repeat: no-repeat;
+}
