@@ -1,6 +1,8 @@
 
 
-
+main{
+  padding: 30px;
+}
 .plus-icon {
     display: block;
     margin: 0;
@@ -17,6 +19,7 @@
 .accordion-list__items-container{
   display: flex;
   flex-direction: column;
+  
   margin: 0 auto;
   padding: 10px;
   max-width: 600px;
@@ -40,11 +43,33 @@
 }
 
 .img-wrappper{
-  background-image: url(.//images/bayan-img1.jpg);
+  background-image: url(.//images/first-bayan.gif);
   background-size: contain;
   display: block;
-  height: 300px;
-  width: 300px;
-
+  /* height: 300px;
+  width: 300px; */
+  height: 0;
+  width: 0;
   background-repeat: no-repeat;
+  overflow: hidden;
+  visibility: hidden;
+  transition: all .5s;
 }
+.second-bayan{
+  background-image: url(.//images/second-bayan.png);
+}
+.third-bayan{
+  background-image: url(.//images/third-bayan.png);
+}
+.fourth-bayan{
+  background-image: url(.//images/fourth-bayan.png);
+}
+.fifth-bayan{
+  background-image: url(.//images/fifth-bayan.jpg);
+}
+
+
+
+
+
+
