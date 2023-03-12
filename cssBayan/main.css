@@ -1,5 +1,19 @@
 
 
+
+html{
+
+  color: #f4f4f4;
+  width: 100vw;
+  overflow-x: hidden;
+  overflow-y: scroll;
+
+  width:100vw;
+  overflow-x:hidden;
+  font-size: 62.5%;
+
+}
+
 main{
   padding: 30px;
 }
