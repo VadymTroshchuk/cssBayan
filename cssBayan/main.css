@@ -18,12 +18,13 @@ main{
 
 .accordion-list__items-container{
   display: flex;
+  border-radius: 1rem;
   flex-direction: column;
-  
   margin: 0 auto;
-  padding: 10px;
-  max-width: 600px;
-  background-color: green;
+  max-width: 28rem;
+  cursor: pointer;
+
+  
 }
 .radio-btn{
   display: none;
@@ -34,7 +35,10 @@ main{
 .top-content__container{
   display: flex;
   align-items: center;
-    justify-content: space-between;
+  justify-content: space-between;
+  padding: 1rem 1rem;
+  cursor: pointer;
+
 }
 
 .bottom-content__container{
@@ -71,5 +75,25 @@ main{
 
 
 
+.accordion-list__item .radio-btn:checked~label .img-wrappper{
+  width: 15rem;
+  height: 15rem;
+  overflow: visible;
+  visibility: visible;
+  cursor: pointer;
+  margin: 2rem;
+}
+
+.accordion-list__item .radio-btn:checked~label .plus-icon{
+  transform: rotate(225deg); 
+}
+
+.accordion-list__items-container .radio-btn:checked ~ label span {
+  color: #3ee3ff;
+   
+}
 
 
+#first-item__content{
+
+}
