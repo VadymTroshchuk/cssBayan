@@ -333,16 +333,7 @@ html{
 
 @media (hover: none) {
 
-  .accordion-list__item .radio-btn:active~label .plus-icon{
-    background-color: #f4f4f4;
-    
-  }
-  .accordion-list__item .radio-btn:active~label .img-wrappper{
-    opacity: 0.7; 
-  }
-  .accordion-list__items-container .radio-btn:active ~ label span {
-    color: #f4f4f4;
-  }
+
   .accordion-list__items-container{
     color: #3ee3ff;
   }
