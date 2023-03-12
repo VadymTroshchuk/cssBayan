@@ -193,8 +193,8 @@ html{
 
    }
     .accordion-list__item .radio-btn:hover~label .img-wrappper{
-      width: 30rem;
-      height: 30rem;
+      width: 15rem;
+      height: 15rem;
       margin: 2rem;
     }
   
@@ -222,7 +222,13 @@ html{
     height: 30rem;
 
   }
- 
+  @media (hover: hover) {
+    .accordion-list__item .radio-btn:hover~label .img-wrappper{
+      width: 30rem;
+      height: 30rem;
+
+    }
+  }
  }
 
 
@@ -321,13 +327,14 @@ html{
       width: 50rem;
       height: 50rem;
       }
-    }
-    .accordion-list__items-container:hover .plus-icon,
+        .accordion-list__items-container:hover .plus-icon,
     .accordion-list__items-container:focus .plus-icon {
     width: 2.5rem;
     height: 2.5rem;
       
     }
+    }
+  
 
 }
 
