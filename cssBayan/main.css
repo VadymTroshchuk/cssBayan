@@ -12,15 +12,23 @@ main{
 }
 
 .plus-icon {
-    display: block;
-    margin: 0;
-    width: 3rem;
-    height: 3rem;
-    background: linear-gradient(#fff 0 0), linear-gradient(#fff 0 0);
-    background-position: center;
-    background-size: 50% 0.1rem,0.1rem 50%;
-    background-repeat: no-repeat;
-    
+  width: 0rem;;
+  height: 0rem;
+  background: linear-gradient(#fff 0 0), linear-gradient(#fff 0 0),#aaabb4;
+  background-position:center;
+  background-size: 50% 0.1rem, 0.1rem 50%; 
+  background-repeat:no-repeat;
+  transform: rotate(0);
+  border-radius:50%;
+  transition: all 0.5s ease;
+}
+
+.alt{
+  border-radius:50%;
+}
+.accordion-main__title{
+  padding: 0.5rem 0.5rem;
+  font-size: 3rem;
 }
 
 
@@ -32,8 +40,9 @@ main{
   max-width: 28rem;
   cursor: pointer;
 
-  
 }
+
+
 .radio-btn{
   display: none;
 }
