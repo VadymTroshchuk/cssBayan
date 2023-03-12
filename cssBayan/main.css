@@ -3,6 +3,14 @@
 main{
   padding: 30px;
 }
+
+
+.header{
+  display: flex;
+  margin: 0 auto;
+  max-width: 28rem;
+}
+
 .plus-icon {
     display: block;
     margin: 0;
@@ -32,6 +40,13 @@ main{
 .accordion-list__item{
 
 }
+
+
+.item-title{
+  transition-duration: .5s;
+}
+
+
 .top-content__container{
   display: flex;
   align-items: center;
