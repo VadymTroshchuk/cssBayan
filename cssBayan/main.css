@@ -97,3 +97,97 @@ main{
 #first-item__content{
 
 }
+
+
+@media (min-width: 500px) {
+  .header {  
+
+  max-width: 49rem;
+  }
+  .accordion-main__title{
+    font-size: 4rem;
+  }
+  .accordion-list__items-container{
+    max-width: 50rem;
+  }
+
+  .accordion-list__item{
+    font-size: 1.7rem;
+  }
+  .accordion-list__item .radio-btn:checked~label .img-wrappper{
+    width: 30rem;
+    height: 30rem;
+
+  
+  }
+
+ 
+  @media (min-width: 820px) {
+    .header{
+      max-width: 70rem;
+    }
+    .accordion-main__title{
+      font-size: 5rem;
+    }
+      .accordion-list__items-container{
+        max-width: 70rem;
+      }
+      .accordion-list__item{
+        font-size: 2rem;
+      }
+  
+      .accordion-list__item .radio-btn:checked~label .img-wrappper{
+        width: 40rem;
+        height: 40rem;
+        margin: 2rem;
+      
+      }
+   
+  }
+  
+  @media (min-width: 1200px) {
+  
+    .header {
+      max-width: 100rem;
+    }
+    .accordion-list__items-container{
+      max-width: 100rem;
+    }
+    .accordion-list__item{
+      font-size: 2.5rem;
+    }
+  
+    .accordion-list__item .radio-btn:checked~label .img-wrappper{
+      width: 45rem;
+      height: 45rem;
+    }
+
+ 
+  }
+  
+  
+  @media (min-width: 1900px) {
+    .header {
+      max-width: 140rem;
+    }
+    .accordion-main__title{
+      padding: 0.5rem 0.5rem;
+      font-size: 6rem;
+    }
+    .accordion-list__items-container{
+      max-width: 140rem;
+    }
+    .accordion-list__item{
+      font-size: 3rem;
+    }
+  
+    .accordion-list__item .radio-btn:checked~label .img-wrappper{
+      width: 50rem;
+      height: 50rem;
+    }
+    
+
+  
+  }
+  
+}
